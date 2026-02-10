@@ -1,5 +1,5 @@
-FROM node:12.2.0-alpine
-WORKDIR app
+FROM node:18-slim
+WORKDIR /app
 COPY . .
 RUN npm install
 RUN npm run test
