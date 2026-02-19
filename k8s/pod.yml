@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: node-container
-      image: infrawave/node-app-cicd:01
+      image: infrawave/node-app-cicd
       ports:
         - containerPort: 8000
