@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   web:
-    image: "new-node-app:01"
+    image: "new-node-app"
 
     ports:
       - "8000:8000"
